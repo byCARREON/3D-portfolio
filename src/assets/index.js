@@ -31,9 +31,11 @@ import tesla from "./company/tesla.png";
 import freelance from "./company/freelance.png";
 import zoe from "./company/zoe.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import udem from "./udem.png";
+import dash from "./zoe.png";
+import ser from "./ser.png";
+import front from "./front.png";
+import apple from "./apple.png";
 
 export {
   logo,
@@ -66,7 +68,9 @@ export {
   freelance,
   zoe,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  udem,
+  dash,
+  ser,
+  front,
+  apple
 };

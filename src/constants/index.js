@@ -24,9 +24,11 @@ import {
   shopify,
   zoe,
   freelance,
-  carrent,
-  jobit,
-  tripguide,
+  udem,
+  dash,
+  ser,
+  front,
+  apple,
   threejs,
 } from "../assets";
 
@@ -173,37 +175,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "University Lab",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Landing page for my university technology laboratory with the purpose of attracting the attention of users to visit and learn about the laboratory.",
     tags: [
       {
-        name: "react",
+        name: "webflow",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Landing Page",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: udem,
+    source_code_link: "https://dashing-shortbread-2a76e5.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "ZOE Dashboard",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web dashboard theme with modern visuals and multiple pages such as, data visualizers, charts, profiles, manage team, invoices balances and dark mode.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "theme",
         color: "green-text-gradient",
       },
       {
@@ -211,20 +209,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: dash,
+    source_code_link: "https://gorgeous-queijadas-dd98cd.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Transportes SER",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Responsive landing page for a national cargo transportation company with modern UX/UI practices, tailwind implementation and including contact functionality.",
     tags: [
       {
-        name: "nextjs",
+        name: "gatsby",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
@@ -232,8 +230,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ser,
+    source_code_link: "https://transportesser.com.mx/",
+  },
+  {
+    name: "Frontend Mentor",
+    description:
+      "Real-world coding challenges made by myself to enhance my skills and build responsive websites. Mentor multiple students within the website social core.",
+    tags: [
+      {
+        name: "frontend mentor",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "challenges",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: front,
+    source_code_link: "https://www.frontendmentor.io/profile/byCARREON",
+  },
+  {
+    name: "Apple Vision Clone",
+    description:
+      "Website clone based on Apple vision website to enhance my skills with advanced js animation techniques and using modern libraries.",
+    tags: [
+      {
+        name: "clone",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "animations",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: apple,
+    source_code_link: "https://incredible-licorice-6f4425.netlify.app/",
   },
 ];
 

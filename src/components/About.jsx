@@ -47,8 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a web developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and its
+        I'm a web designer with proficient design abilities focusing in modern UX/UI trends by using tools like Figma. I'm also a developer with experience in TypeScript and
+        JavaScript, and expertise in frameworks such as React, Node.js, and its
         multiple libraries. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together!
