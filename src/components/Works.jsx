@@ -26,7 +26,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full cursor-pointer'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full cursor-pointer shadow-card'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -93,6 +93,21 @@ const Works = () => {
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+        <motion.div
+          variants={fadeIn("up", "spring", 6 * 0.5, 0.75)}>
+          <Tilt
+            options={{
+              max: 45,
+              scale: 1,
+              speed: 450,
+            }}
+            className='bg-tertiary p-5 rounded-2xl sm:w-[360px] h-64 w-full items-center flex justify-center content-center shadow-card'
+          >
+            <div className="">
+              <p className="text-center font-bold text-[24px]">To be continued...</p>
+            </div>
+          </Tilt>
+        </motion.div>
       </div>
     </>
   );
