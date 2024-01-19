@@ -23,6 +23,7 @@ import {
   tesla,
   shopify,
   zoe,
+  creai,
   freelance,
   udem,
   dash,
@@ -30,6 +31,7 @@ import {
   front,
   apple,
   threejs,
+  creaiWeb,
 } from "../assets";
 
 export const navLinks = [
@@ -137,11 +139,24 @@ const experiences = [
     company_name: "Zoé It Customs",
     icon: zoe,
     iconBg: "#E6DEDD",
-    date: "Jul 2022 - Present",
+    date: "Jul 2022 - Aug 2023",
     points: [
       "Designing, developing and maintaining company's web/desktop applications using multiple technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "UX/UI Developer",
+    company_name: "CreAI",
+    icon: creai,
+    iconBg: "#E6DEDD",
+    date: "Aug 2023 - Present",
+    points: [
+      "Revamped the company's website using webflow, embracing a modern and cutting-edge approach. Implemented the latest design trends, incorporating sophisticated and advanced animations to enhance the user experience.",
+      "Significantly contributed to the development of design proposals and systems for various company IA oriented projects. Focused on creating intuitive and appealing interfaces, ensuring consistency in brand visual identity.",
+      "Executed the deployment of web applications in production environments, utilizing platforms such as Amazon S3 and Azure Static Web Apps.",
+      "Led and coordinated projects using Jira platform, facilitating effective management and detailed tracking of tasks and milestones. This approach ensured alignment with project objectives and adherence to established timelines."
     ],
   },
 ];
@@ -274,6 +289,27 @@ const projects = [
     ],
     image: apple,
     source_code_link: "https://incredible-licorice-6f4425.netlify.app/",
+  },
+  {
+    name: "Creai Website Redesign",
+    description:
+      "Creai Website redesign using Webflow, modern libraries and top-notch latest web design tendencies.",
+    tags: [
+      {
+        name: "webflow",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "animations",
+        color: "green-text-gradient",
+      },
+      {
+        name: "modern-website",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: creaiWeb,
+    source_code_link: "https://team-799392-05af39e832fea8c51e3599700d0.webflow.io/",
   },
 ];
 

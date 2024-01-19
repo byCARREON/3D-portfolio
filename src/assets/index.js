@@ -30,6 +30,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import freelance from "./company/freelance.png";
 import zoe from "./company/zoe.png";
+import creai from "./company/creai.png";
+import creaiWeb from "./creaiWeb.png";
 
 import udem from "./udem.png";
 import dash from "./zoe.png";
@@ -67,6 +69,8 @@ export {
   starbucks,
   freelance,
   zoe,
+  creai,
+  creaiWeb,
   tesla,
   udem,
   dash,
